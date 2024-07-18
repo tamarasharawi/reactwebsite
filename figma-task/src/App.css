@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Reem Kufi", sans-serif !important;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .App {
+    min-height: 100vh;
+    width: 85vw;
+    max-width: 1900px;
+    margin: 0rem auto;
+  }
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+  body {
+    background-color: #f6f6f6;
+  }
+  
+  .navbar-container{
+   
+    display: flex;
+    justify-content: space-between;
+    
+    color: #070599;
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  .navbar-links-container{
+    margin-right: 6px;
+    display: flex;
+    gap: 15px; 
+    color: #070599;
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  .primary-button {
+      
+    width: 160px;
+    height: 26px;
+    top: 18px;
+    left: 1115px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #070599;
+    color: white;
+
+  }
+ 
+
+  .home-banner-container {
+    position: relative;
+    display: flex;
+    padding-top: 3rem;
+  }
+  
+  .home-image-section {
+    max-width: 600px;
+    flex: 1;
+  }
+  .home-text-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .primary-heading {
+    font-size: clamp(2rem, 5vw, 4rem);
+    color: #4c4c4c;
+    line-height: 5rem; 
+     max-width: 600px; 
+  }
+  .primary-text {
+    font-size: clamp(1rem, 3vw, 1.5rem);
+    max-width: 500px;
+    color: #6a6a6a;
+    margin: 1.5rem 0rem;
+  }
+  .first-button {
+    width: 189.13px;
+    height: 36px;
+    top: 688px;
+    left: 163.12px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #070599;
+    color: white;
+
+
+  }
+  .second-button {
+    width: 189.13px;
+    height: 36px;
+    top: 688px;
+    left: 382.27px;
+    gap: 0px;
+    opacity: 0px;
+    margin-left: 20px;
+  }
+ 
+  .section-two-icons{
+    margin-top: 2rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+
+  @media (max-width: 1000px) {
+    .navbar-links-container a {
+      margin-right: 1rem;
+      font-size: 1rem;
+    }
+
+   
+    .primary-button {
+      font-size: 1rem;
+    }
+    
+  }
+  
